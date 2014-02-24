@@ -1,8 +1,8 @@
 {
-    "name": "shifter",
-    "description": "New YUI build tool based on Gearjs, so let's shift some gears",
+    "name": "fast-ui-shifter",
+    "description": "New YUI build tool based on Gearjs, so let's shift some gears (FastUi Fork)",
     "author": "Dav Glass <davglass@gmail.com>",
-    "version": "0.4.3",
+    "version": "0.4.4",
     "dependencies": {
         "progress": "~0.1.0",
         "ansi-color": "*",
@@ -34,7 +34,7 @@
     ],
     "main": "./lib/index.js",
     "bin": {
-        "shifter": "./bin/shifter"
+        "fast-ui-shifter": "./bin/shifter"
     },
     "scripts": {
         "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/ ./lib/tasks/",
@@ -42,15 +42,15 @@
         "docs": "node scripts/versions.js; node ./node_modules/.bin/selleck --out ./output"
     },
     "preferGlobal": "true",
-    "bugs": { "url" : "http://github.com/yui/shifter/issues" },
+    "bugs": { "url" : "http://github.com/bmustiata/shifter/issues" },
     "licenses":[
         {
             "type" : "BSD",
-            "url" : "https://github.com/yui/shifter/blob/master/LICENSE"
+            "url" : "https://github.com/bmustiata/shifter/blob/master/LICENSE"
         }
     ],
     "repository": {
         "type":"git",
-        "url":"http://github.com/yui/shifter.git"
+        "url":"http://github.com/bmustiata/shifter.git"
     }
 }
